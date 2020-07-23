@@ -7,7 +7,6 @@ body {
   text-align: center;
   justify-content: center;
   overflow: hidden;
-  /*CSS Smotth Scroll*/
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
@@ -60,37 +59,31 @@ p {
 
 #home {
   padding: 2em;
-  /* background-image: url('13.png'); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: auto;
 }
 
 #about {
   padding: 2em;
   background: black;
   color: white;
-  width: 100%;
-  height: auto;
-  width: 100%;
-  height: auto;
 }
 
 #service {
   padding: 2em;
-  /* background-image: url('14.png'); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: auto;
+}
+
+#service img {
+  width: 40%;
+  height: 40%;
 }
 
 #portfolio {
   padding: 2em;
   background: black;
+}
+
+#portfolio img {
+  width: 70%;
+  height: 70%;
 }
 
 #footer {
@@ -99,6 +92,4 @@ p {
   color: white;
   text-align: center;
   font-size: 0.5em;
-  width: 100%;
-  height: auto;
 }
